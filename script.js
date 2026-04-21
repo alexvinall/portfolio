@@ -1,47 +1,35 @@
 const projects = [
   {
-    title: "Creative Kids Hub",
+    title: "FIRE Progress Tracker",
+    category: "finance",
+    categoryLabel: "Personal Finance",
+    description: "UK-focused FIRE progress tracker based on SIPP and S&S ISAs",
+    tags: ["Finance", "FIRE"],
+    url: "https://alexvinall.github.io/fire-progress-tracker/"
+  },
+  {
+    title: "32",
     category: "family",
     categoryLabel: "Family Projects",
-    description:
-      "Interactive learning and art projects built collaboratively with my daughter, featuring games, stories, and creative tools.",
-    tags: ["React", "Creative", "Educational"],
-    url: "#"
+    description: "Simple version of once-popular game 2048 where the goal is to reach 32",
+    tags: ["Games", "Family"],
+    url: "https://alexvinall.github.io/2048/"
   },
   {
-    title: "Budget Tracker Pro",
-    category: "finance",
-    categoryLabel: "Personal Finance",
-    description:
-      "A comprehensive personal finance application with expense tracking, budget planning, and financial insights.",
-    tags: ["Finance", "Analytics", "Dashboard"],
-    url: "#"
-  },
-  {
-    title: "Investment Portfolio Dashboard",
-    category: "finance",
-    categoryLabel: "Personal Finance",
-    description:
-      "Real-time portfolio tracking with performance metrics, asset allocation visualization, and market trends.",
-    tags: ["Finance", "Charts", "Real-time"],
-    url: "#"
-  },
-  {
-    title: "Story Time Adventure",
+    title: "Rescue Hero",
     category: "family",
     categoryLabel: "Family Projects",
-    description:
-      "An interactive storytelling platform we built together, where kids can create and share their own illustrated stories.",
-    tags: ["Interactive", "Storytelling", "Creative"],
-    url: "#"
+    description: "A make-believe game you can play at home with your kids to be a hero!",
+    tags: ["Family", "Games"],
+    url: "https://alexvinall.github.io/rescue-hero/"
   },
   {
-    title: "Expense Splitter",
-    category: "finance",
-    categoryLabel: "Personal Finance",
+    title: "Pregnancy Calendar",
+    category: "personal",
+    categoryLabel: "Personal",
     description:
-      "Smart tool for splitting expenses among groups, tracking shared costs, and settling payments efficiently.",
-    tags: ["Finance", "Utilities", "Collaborative"],
+      "A personal and private pregnancy calendar. Input your current stage of pregnancy (weeks and days) to generate a downloadable pregnancy calendar showing the start of each week. You can import this into Google, iOS and other calendars.",
+    tags: ["Family", "Pregnancy", "Calendar"],
     url: "#"
   }
 ];

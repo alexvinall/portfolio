@@ -8,6 +8,8 @@
   --family-border: #f2d9e8;
   --finance-bg: #eff6ff;
   --finance-border: #d6e7ff;
+  --personal-bg: #f4f8ef;
+  --personal-border: #dce8ce;
 }
 
 * {
@@ -131,6 +133,11 @@ h1 {
   border-color: var(--finance-border);
 }
 
+.project-card.personal {
+  background: var(--personal-bg);
+  border-color: var(--personal-border);
+}
+
 .project-card:hover,
 .project-card:focus-visible {
   transform: translateY(-1px);
@@ -145,6 +152,11 @@ h1 {
 .project-card.finance:hover,
 .project-card.finance:focus-visible {
   border-color: #bbd7ff;
+}
+
+.project-card.personal:hover,
+.project-card.personal:focus-visible {
+  border-color: #bfd3a1;
 }
 
 .project-meta {
